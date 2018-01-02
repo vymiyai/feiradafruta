@@ -20,7 +20,7 @@ public class CommandHandler {
     private static final Logger log = LoggerFactory.getLogger(CommandHandler.class);
 
     private String readyMesssage = "É, O PAU VAI COMER SOLTO AQUI. O CACETE VAI COMER AQUI. VAMO LEVANTAR O PAU NESSA MERDA AQUI HOJE!";
-    private String playingText = "!help";
+    private String playingText = "!ajuda";
     private String botUserName = "Filme do Bátima";
     private String errorMessage = "ESSA PORCARIA NÃO FUNCIONA! \n";
 
