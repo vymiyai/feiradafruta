@@ -17,6 +17,8 @@ public class PlayCommand implements IBotCommand {
         {
             put("seumadruganao", "audios/seumadruganao.mp3");
             put("fracassado", "audios/fracassado.mp3");
+            put("olhabem", "audios/veditaolhabem.mp3");
+            put("numintendi", "audios/numIntendioqueelefalou.mp3");
         }
     };
 
