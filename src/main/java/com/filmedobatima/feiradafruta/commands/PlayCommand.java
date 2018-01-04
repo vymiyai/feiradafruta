@@ -14,7 +14,10 @@ import java.util.Hashtable;
 public class PlayCommand implements IBotCommand {
 
     public Hashtable<String,String> audios = new Hashtable<String,String>() {
-        { put("seumadruganao", "audios/seumadruganao.mp3"); }
+        {
+            put("seumadruganao", "audios/seumadruganao.mp3");
+            put("fracassado", "audios/fracassado.mp3");
+        }
     };
 
     @Override
