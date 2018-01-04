@@ -13,7 +13,7 @@ import java.util.Hashtable;
 @Component
 public class PlayCommand implements IBotCommand {
 
-    public Hashtable<String,String> audios = new Hashtable<String,String>() {
+    public static Hashtable<String,String> audios = new Hashtable<String,String>() {
         {
             put("seumadruganao", "audios/seumadruganao.mp3");
             put("fracassado", "audios/fracassado.mp3");
@@ -66,6 +66,6 @@ public class PlayCommand implements IBotCommand {
 
     @Override
     public String getCommandDescription() {
-        return "!play - Play an audio file!";
+        return "!play <audio> - Veditaaaa! Olhaa beeeem! WOOOOOOOOH!";
     }
 }
