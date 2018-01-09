@@ -28,11 +28,6 @@ public class HelpBotCommand implements IBotCommand {
         }
         // it seems that a component cannot inject itself.
         response.append(this.getCommandDescription());
-        response.append("\n\n");
-
-        response.append("Áudios");
-        response.append("\n");
-        response.append(String.join("\n", PlayCommand.audios.keySet()));
         response.append("\n```");
 
         event.getChannel().sendMessage(response.toString());
